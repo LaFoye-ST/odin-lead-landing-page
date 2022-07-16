@@ -27,6 +27,7 @@ body {
 .header .container {
     display: flex;
     background-color: aqua;
+    justify-content: center;
 }
 
 .header img {
@@ -35,8 +36,20 @@ body {
 
 .boxes .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxes .allbox {
+    display: flex;
 }
 
 .boxes img {
     max-width: 150px;
+    border-radius: 5px;
+}
+
+.quote .container {
+    display: flex;
 }
