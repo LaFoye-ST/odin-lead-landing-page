@@ -8,3 +8,35 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 15px;
+}
+
+.header .container {
+    display: flex;
+    background-color: aqua;
+}
+
+.header img {
+    max-width: 150px;
+}
+
+.boxes .container {
+    display: flex;
+}
+
+.boxes img {
+    max-width: 150px;
+}
