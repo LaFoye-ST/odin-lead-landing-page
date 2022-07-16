@@ -13,7 +13,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .navbar ul {
@@ -22,12 +28,35 @@ body {
 
 .navbar ul li {
     margin-left: 15px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header .container {
     display: flex;
-    background-color: aqua;
+    background-color: #1f2937;
     justify-content: center;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header button {
+    padding: 5px;
+    background-color: #3882f6;
 }
 
 .header img {
@@ -39,6 +68,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.boxes h2 {
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .boxes .allbox {
