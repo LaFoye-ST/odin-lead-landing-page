@@ -84,6 +84,23 @@ body {
     border-radius: 5px;
 }
 
+.boxes p {
+    
+}
+
 .quote .container {
+    display: flex;
+}
+
+.quote p {
+    background-color: #e5e7eb;
+    font-style: italic;
+}
+
+.navbar, .footer {
+    justify-content: space-between;
+}
+
+.footer .container {
     display: flex;
 }
